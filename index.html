@@ -1,93 +1,20 @@
-<!--
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Osadzone strony</title>
-<style>
-    body, html {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        overflow: hidden;
-    }
-    
-    .iframe-container {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    
-    .iframe-container iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        border: none;
-    }
-</style>
-</head>
-<body>
-<div class="iframe-container">
-    <iframe src="https://www.kahoot.it"></iframe>
-</div>
-<div class="iframe-container">
-    <iframe src="https://www.kahoot.rocks"></iframe>
-</div>
-<script>
-    // Pobierz wszystkie osadzone ramki
-    const iframes = document.querySelectorAll('iframe');
-
-    // Dla każdej osadzonej ramki
-    iframes.forEach(iframe => {
-        // Dostosuj wielkość ramki do wysokości ekranu urządzenia
-        iframe.style.height = window.innerHeight + 'px';
-
-        // Obsługa przewijania strony w ramce tylko w przypadku dotknięcia i przesunięcia palcem
-        let startY = 0;
-        let scrolling = false;
-
-        iframe.contentDocument.addEventListener('touchstart', (event) => {
-            startY = event.touches[0].clientY;
-            scrolling = true;
-        });
-
-        iframe.contentDocument.addEventListener('touchmove', (event) => {
-            if (scrolling) {
-                const deltaY = event.touches[0].clientY - startY;
-                iframe.contentWindow.scrollBy(0, deltaY * 2);
-                startY = event.touches[0].clientY;
-            }
-        });
-
-        iframe.contentDocument.addEventListener('touchend', () => {
-            scrolling = false;
-        });
-    });
-</script>
-</body>
-</html>
--->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--<title>Osadzone strony</title>-->
 <title>Enter nickname - Kahoot!</title>
 <style>
     body, html {
         margin: 0;
         padding: 0;
         height: 100%;
+        overflow: hidden;
     }
     
     .iframe-container {
         width: 100%;
-        height: 50%; /* Wysokość każdej osadzonej ramki */
+        height: 100%;
     }
     
     .iframe-container iframe {
