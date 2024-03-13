@@ -10,7 +10,7 @@ która ma dodane dwie stony internetowe:
 > kahoot.rocks
 
 > [Kahoot.it](https://kahoot.it):
-może być używany jako przyrywka do prawdziwego cheata (kahoot.rocks),
+może być używany jako przykrywka do prawdziwego cheata (kahoot.rocks),
 albo możesz grać bez cheatów.
 > [Kahoot Rocks](https://kahoot.club):
 Nie wygląda jak normalny kahoot (dlatego dodałem [kahoot.it](https://kahoot.it))
