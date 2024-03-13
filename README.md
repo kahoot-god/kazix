@@ -16,4 +16,3 @@ albo możesz grać bez cheatów.
 Nie wygląda jak normalny kahoot (dlatego dodałem [kahoot.it](https://kahoot.it))
 Ma możliwość dodawania botów, auto answer i pewnie też inne.
 > Na [discordzie twórców](https://discord.gg/fGsFpsNp) można znaleść także informację (kanał #status), czy cheat działa.![image](https://github.com/kahoot-god/kazix/assets/162800507/b736ccab-c071-4ff7-b383-a1d996257448)
-[May the Force be With You](octocat-1710335638160.png)
