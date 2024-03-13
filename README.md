@@ -1,5 +1,6 @@
 # Kazix
-##Every win in Kahoot
+Every win in Kahoot
+
 > Co to jest Kazix?
 Jest to [strona internetowa](https://kahoot-god.github.io/kazix/),
 która ma dodane dwie stony internetowe:
